@@ -8,6 +8,7 @@
 <title>Export | Candylake</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="images/icon/fabicon.png" />
 <link type="text/css" rel="stylesheet"
 	href="fonts.googleapis.com/cssaba3.css?family=Playfair+Display:400,700">
 <link href='fonts.googleapis.com/csscd33.css?family=PT+Sans:400,700'
