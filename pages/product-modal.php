@@ -2,22 +2,27 @@
 <style type="text/css">
 
   .icon{
-    padding-top: 150px;
+    padding-top: 250px;
   }
   .modal .modal-dialog {
-    width: 1000px;
-    height: 400px;
+    width: 1300px;
+    height: 500px;
   }
   .postion
   {
-    height: 400px !important;
+    height: 600px !important;
   }
+  .modal-content{
+    border-radius: 30px;
 
+  }
 
   @media screen and (max-width: 600px) {
    .modal .modal-dialog {
     width: auto;
+    height: auto;
   }
+
 
   .postion
   {
@@ -36,17 +41,20 @@
 <!-- cococrush modal -->
 <div class="modal fade-scale" id="cocoCrushModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog opacity-animate3">
-    <div class="modal-content">
+    <div class="modal-content ">
       <div class="modal-body">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h1 class="text-left">Coco Crush</h1><br>
+        <h2>Crunchy & creamy candy made with real pulp</h2><br>
         <div class="row">
           <div class="col-xs-12" id="slider" >
             <div class="row">
               <div class="col-sm-12" id="carousel-bounding-box">
                 <div class="carousel slide" id="myCarousel" >
                   <div class="carousel-inner">
+
                     <div class="active item" data-slide-number="0" >
-                      <img src="images/products/catalogue/coco_crush1.png" class="postion" >
+                      <img src="1080.png" class="postion" >
                     </div>
                     <div class="item" data-slide-number="1">
                       <img src="images/products/catalogue/coco_crush2.png" class="postion">
@@ -67,7 +75,7 @@
             </div>
           </div>
           <div class="row hidden-xs col-md-offset-3" id="slider-thumbs" >
-            <ul class="hide-bullets" >
+            <ul class="hide-bullets" style="margin-left: 150px">
               <li>
                 <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/coco_crush1.png" ></a>
               </li>
@@ -119,7 +127,7 @@
           </div>
 
           <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-            <ul class="hide-bullets">
+            <ul class="hide-bullets" style="margin-left: 150px">
               <li>
                 <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/peanut1.png"></a>
               </li>
@@ -230,7 +238,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/goopy1.png"></a>
             </li>
@@ -289,7 +297,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/coconut.png"></a>
             </li>
@@ -349,7 +357,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/peanut1.png"></a>
             </li>
@@ -402,7 +410,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/milkies1.png"></a>
             </li>
@@ -456,7 +464,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/coffee_gold1.png"></a>
             </li>
@@ -507,7 +515,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 80px">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/gold_paan.png"></a>
             </li>
@@ -558,7 +566,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets">
+          <ul class="hide-bullets " style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/elaichi1.png" ></a>
             </li>
@@ -738,7 +746,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets"style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/blueberry1.png"></a>
             </li>
@@ -786,7 +794,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/creamz-min.png"></a>
             </li>
@@ -834,7 +842,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px;">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/bonbon-candy.png"></a>
             </li>
@@ -882,7 +890,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px;">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/coffee_shot_1.png"></a>
             </li>
@@ -930,7 +938,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/do-mango.png"></a>
             </li>
@@ -978,7 +986,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets" style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/mangoos.png"></a>
             </li>
@@ -1026,7 +1034,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px;">
+          <ul class="hide-bullets" style="margin-left: 150px;">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/milk-gold.png"></a>
             </li>
@@ -1074,7 +1082,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets" style="margin-left: 140px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/mr-bon1.png"></a>
             </li>
@@ -1248,7 +1256,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets"  style="margin-left: 100px">
+          <ul class="hide-bullets"  style="margin-left: 150px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/bonbon1.png"></a>
             </li>
@@ -1283,10 +1291,10 @@
                 <div class="carousel slide" id="myCarousel23">
                   <div class="carousel-inner">
                     <div class="active item" data-slide-number="0">
-                      <img src="images/products/catalogue/Bit-Bite-1-min.png" class="postion">
+                      <img src="images/products/catalogue/Bit-Bite2.png" class="postion">
                     </div>
                     <div class="item" data-slide-number="1">
-                      <img src="images/products/catalogue/Bit-Bite-min.png" class="postion">
+                      <img src="images/products/catalogue/Bit-Bite1.png" class="postion">
                     </div>
 
                   </div>
@@ -1303,12 +1311,12 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets"  style="margin-left: 100px">
+          <ul class="hide-bullets"  style="margin-left: 150px">
             <li>
-              <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/Bit-Bite-1-min.png"></a>
+              <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/Bit-Bite2.png"></a>
             </li>
             <li>
-              <a class="thumbnail" id="carousel-selector-1"><img src="images/products/catalogue/Bit-Bite-min.png"></a>
+              <a class="thumbnail" id="carousel-selector-1"><img src="images/products/catalogue/Bit-Bite1.png"></a>
             </li>
 
           </ul>
@@ -1359,7 +1367,7 @@
         </div>
 
         <div class="row hidden-xs col-md-offset-3" id="slider-thumbs">
-          <ul class="hide-bullets" style="margin-left: 100px">
+          <ul class="hide-bullets" style="margin-left: 140px">
             <li>
               <a class="thumbnail" id="carousel-selector-0"><img src="images/products/catalogue/dark_wafs_1.png"></a>
             </li>

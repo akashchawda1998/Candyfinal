@@ -6,21 +6,21 @@ include 'product-modal.php';
 ?>
 
 <style media="screen">
-@media (min-width: 769px) {
-	.modal-dialog {
-		width: 830px;
+	@media (min-width: 769px) {
+		.modal-dialog {
+			width: 830px;
+		}
 	}
-}
-.modal-btn {
-	padding-right: 40px;
-	text-align: center;
-}
-.modal-images img {
-	transition-duration: 2s;
-}
-.modal-images img:hover {
-	transform: scale(1.1);
-}
+	.modal-btn {
+		padding-right: 40px;
+		text-align: center;
+	}
+	.modal-images img {
+		transition-duration: 2s;
+	}
+	.modal-images img:hover {
+		transform: scale(1.1);
+	}
 
 </style>
 
@@ -48,7 +48,7 @@ include 'product-modal.php';
 
 						<!-- ************************start toffees************************ -->
 
-					
+						
 
 						<div class="col-md-4 menu-item candies">
 							<div class="column" id="caption">
@@ -57,7 +57,7 @@ include 'product-modal.php';
 									<span class="text">
 										<h1>Coco Crush</h1>
 										<p>Crunchy & creamy candy made with real pulp</p>
-										<a data-toggle="modal" data-target="#cocoCrushModal"><button class="btn-buy">Buy Now</button></a>
+										<a data-toggle="modal" data-target="#cocoCrushModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -83,7 +83,7 @@ include 'product-modal.php';
 									<span class="text">
 										<h1>Bombzz</h1>
 										<p>A real fizzy candy</p>
-										<a data-toggle="modal" data-target="#bombzzModal"><button class="btn-buy">Buy Now</button></a>
+										<a data-toggle="modal" data-target="#bombzzModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -95,8 +95,8 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Goopy</h1>
-										<p>A real fizzy candy</p>
-										<a data-toggle="modal" data-target="#goopyModal"><button class="btn-buy">Buy Now</button></a>
+										<p>Tempting jam pulp filled candies</p>
+										<a data-toggle="modal" data-target="#goopyModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -108,7 +108,7 @@ include 'product-modal.php';
 								<img src="images/products/catalogue/milkies1.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
-										<h1>Milkies</h1>
+										<h1>Milkiez</h1>
 										<p>The invigoratin taste of rich milk & caramel</p>
 										<a data-toggle="modal" data-target="#milkieModal"><button class="btn-buy">View More</button></a>
 									</span>
@@ -134,9 +134,9 @@ include 'product-modal.php';
 								<img src="images/products/catalogue/coconut.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
-										<h1>Coconut Candy</h1>
+										<h1>Milk & Coconut</h1>
 										<p>Natural taste of coconut crush</p>
-										<a data-toggle="modal" data-target="#coconutModal"><button class="btn-buy">Buy Now</button></a>
+										<a data-toggle="modal" data-target="#coconutModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -148,25 +148,14 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Do Mango</h1>
-										<p>The invigoratin taste of sweet & sour mango</p>
+										<p>The invigorating taste of sweet & sour mango</p>
 										<a data-toggle="modal" data-target="#doMangoModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
 						</div>
 
-							<div class="col-md-4 menu-item candies">
-							<div class="column" id="caption">
-								<img src="images/products/catalogue/elaichi_eclairs.png" alt="Candylake Products" class="item-image">
-								<div class="overlay">
-									<span class="text">
-										<h1>Elaichi Eclairs</h1>
-										<p>The invigoratin taste of sweet & sour mango</p>
-										<a data-toggle="modal" data-target="#elaichi_eclairs"><button class="btn-buy">View More</button></a>
-									</span>
-								</div>
-							</div>
-						</div>
+						
 
 						<div class="col-md-4 menu-item candies">
 							<div class="column" id="caption">
@@ -238,7 +227,7 @@ include 'product-modal.php';
 								<img src="images/products/catalogue/bonbon-candy.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
-										<h1>Bonbon Candy</h1>
+										<h1>Bon Bon Candy</h1>
 										<p>Goodness of tasty & rich coco</p>
 										<a data-toggle="modal" data-target="#bonbonCandyModal"><button class="btn-buy">View More</button></a>
 									</span>
@@ -265,7 +254,7 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Kesar Milk</h1>
-										<p>Master blend of saffron & milk</p>
+										<p>A Master blend of saffron & milk</p>
 										<a data-toggle="modal" data-target="#kesarModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
@@ -304,7 +293,7 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Mangoos</h1>
-										<p>Tangy flavour of natural mangoes</p>
+										<p>Tangy flavour of natural mangoos</p>
 										<a data-toggle="modal" data-target="#mangoosModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
@@ -317,7 +306,7 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Coffee Shots</h1>
-										<p>Goodness of tasty & rich coco</p>
+										<p>Amazing combination of butter & coffee </p>
 										<a data-toggle="modal" data-target="#coffeeShotsModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
@@ -361,8 +350,21 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Milklair</h1>
-										<p>Fine dark chocolate center filled toffee</p>
+										<p>Savoring  vanilla center with soft caramel exterior</p>
 										<a data-toggle="modal" data-target="#milklairModal"><button class="btn-buy">View More</button></a>
+									</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 menu-item toffees">
+							<div class="column" id="caption">
+								<img src="images/products/catalogue/elaichi_eclairs.png" alt="Candylake Products" class="item-image">
+								<div class="overlay">
+									<span class="text">
+										<h1>Elaichi Eclairs</h1>
+										<p>Soft toffee made with the freshness of cardamon & rich caramel</p>
+										<a data-toggle="modal" data-target="#elaichi_eclairs"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -379,7 +381,7 @@ include 'product-modal.php';
 									<span class="text">
 										<h1>Bon Bon</h1>
 										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#bonbonWaferModal"><button class="btn-buy">Buy Now</button></a>
+										<a data-toggle="modal" data-target="#bonbonWaferModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -387,11 +389,11 @@ include 'product-modal.php';
 
 						<div class="col-md-4 menu-item wafers">
 							<div class="column" id="caption">
-								<img src="images/products/catalogue/Bit-Bite-1-min.png" alt="Candylake Products" class="item-image">
+								<img src="images/products/catalogue/Bit-Bite2.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
 										<h1>Bit Bite</h1>
-										<p>Crunchy twist in every bite</p>
+										<p>Crunchy twist  in every bite</p>
 										<a data-toggle="modal" data-target="#bitbiteModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
@@ -405,36 +407,36 @@ include 'product-modal.php';
 								<div class="overlay">
 									<span class="text">
 										<h1>Wafs Orange</h1>
-										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#wafsorangeModal"><button class="btn-buy">Buy Now</button></a>
+										<p>Delicious big bite of crispy & creamy orange wafer</p>
+										<a data-toggle="modal" data-target="#wafsorangeModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
 						</div>
 
 
-               
-								<div class="col-md-4 menu-item wafers">
+						
+						<div class="col-md-4 menu-item wafers">
 							<div class="column" id="caption">
 								<img src="images/products/catalogue/strawberry_wafs_1.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
 										<h1>Wafs Strawbery</h1>
-										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#wafsstrawberryModal"><button class="btn-buy">Buy Now</button></a>
+										<p>Delicious big bite of crispy & creamy strawberry wafer</p>
+										<a data-toggle="modal" data-target="#wafsstrawberryModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
 						</div>
 
-								<div class="col-md-4 menu-item wafers">
+						<div class="col-md-4 menu-item wafers">
 							<div class="column" id="caption">
 								<img src="images/products/catalogue/dark_wafs_1.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
 										<h1>Dark Wafers</h1>
-										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#darkwafersModal"><button class="btn-buy">Buy Now</button></a>
+										<p>Yummy & appetizing big bite of crunchy dark chocolate wafer</p>
+										<a data-toggle="modal" data-target="#darkwafersModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
@@ -442,34 +444,34 @@ include 'product-modal.php';
 
 
 
-								<div class="col-md-4 menu-item wafers">
+						<div class="col-md-4 menu-item wafers">
 							<div class="column" id="caption">
 								<img src="images/products/catalogue/creamball_1.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
 										<h1>Creamy Ball</h1>
-										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#creamyballModal"><button class="btn-buy">Buy Now</button></a>
+										<p>Enjoy the real taste of chocolate with surprising toys</p>
+										<a data-toggle="modal" data-target="#creamyballModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
 						</div>
 
 
-								<div class="col-md-4 menu-item lollipop">
+						<div class="col-md-4 menu-item lollipop">
 							<div class="column" id="caption">
 								<img src="images/products/catalogue/lollipop_1.png" alt="Candylake Products" class="item-image">
 								<div class="overlay">
 									<span class="text">
 										<h1>Fruit Lollipop</h1>
-										<p>Yummy & appetizig bon bon</p>
-										<a data-toggle="modal" data-target="#lollipopModal"><button class="btn-buy">Buy Now</button></a>
+										<p>sweet & tempting fruit flavored pops</p>
+										<a data-toggle="modal" data-target="#lollipopModal"><button class="btn-buy">View More</button></a>
 									</span>
 								</div>
 							</div>
 						</div>
 
-		
+						
 						<!-- ************************end wafers************************ -->
 
 
@@ -478,4 +480,4 @@ include 'product-modal.php';
 			</div>
 		</div>
 
-<?php include 'footer.php'; ?>
+		<?php include 'footer.php'; ?>

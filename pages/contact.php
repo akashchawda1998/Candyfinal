@@ -1,7 +1,4 @@
-
-
-?>
-
+ 
 <?php
 $title = "Contact Us | Candylake";
 $page = "contact";
