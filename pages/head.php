@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="assets/css/color/default.css">
 <link rel="stylesheet" href="assets/css/nivo-slider.css">
 
-<!-- <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
